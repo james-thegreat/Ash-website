@@ -19,7 +19,6 @@
     <li>VS Code - for code editing & Compiling code.</li>
     <li>trello - for following Agile aproch.</li>
     <li>Figma - for design.</li>
-    <li></li>
   </ul>
 </p>
 
