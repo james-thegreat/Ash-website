@@ -24,7 +24,7 @@
 </p>
 
 <p>
-  Programing lanages used:
+  Programing languages used:
   <ul>
     <li>JavaScript</li>
     <li>CSS</li>
