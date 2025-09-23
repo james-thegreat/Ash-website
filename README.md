@@ -1,6 +1,14 @@
 # Ash-website
 
-<p>this is a React website that will be used for a tintting busness.</p>
+<h3>Introduction</h3>
+<p>
+  This is a React website that will be used for a tintting busness. 
+  I am using this opertunity to upskill in React and futher understand JavaScript. 
+  The main problem that the client requested to slove is to incress the amount of work.
+  how i acheve to acomplish this is to focuse on following proper React coding standards 
+  wich will help give the website a better chance to be indext by the web browser leating 
+  to better searchs.
+</p>
 
 <p>
   To Do: 
