@@ -27,6 +27,7 @@
     <li>VS Code - for code editing & Compiling code.</li>
     <li>trello - for following Agile aproch.</li>
     <li>Figma - for design.</li>
+    <li>AWS - for deploy the web site</li>
   </ul>
 </p>
 
@@ -39,3 +40,33 @@
     <li>React.js (framework)</li>
   </ul>
 </p>
+
+<h3>Upskiling</h3>
+<ul>
+  <li>JavaScript</li>
+  <li>React</li>
+  <li>AWS</li>
+  <li>Next.js</li>
+</ul>
+<p>
+  <Strong>Note:</Strong>
+  I am upskilling in React and Next.js. However, when I attended a 'Summer of Tech' meet and
+  greet, I spoke to a React developer and mentioned I was upskilling in both. My conversation 
+  with him led me to believe that using Next.js for this website would probably be overkill, as 
+  the client's needs just called for frontend development, which I feel React would suffice for. 
+  Plus, this developer also pointed out something I had not considered: using Vercel, which is
+  connected to Next.js, is expensive, and for a small company, I want to have as little long-term 
+  cost for the client as possible. However, I will continue to upskill by using the Next.js App Router 
+  tutorial, because I feel it is a better tutorial for helping me to understand the ins and outs of React. 
+  Plus, you can never be too prepared.
+</p>
+
+
+
+
+
+
+
+
+
+
