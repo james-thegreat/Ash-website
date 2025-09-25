@@ -41,7 +41,7 @@
   </ul>
 </p>
 
-<h3>Upskiling</h3>
+<h3>Up-Skilling</h3>
 <ul>
   <li>JavaScript</li>
   <li>React</li>
