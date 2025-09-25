@@ -47,6 +47,7 @@
   <li>React</li>
   <li>AWS</li>
   <li>Next.js</li>
+  <li>TypeScript</li>
 </ul>
 <p>
   <Strong>Note:</Strong>
