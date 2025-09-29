@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Ash-website
 
 <h3>Project Name - <strong>46Windo Tinting LTD</strong></h3>
@@ -66,13 +64,3 @@
   Plus, you can never be too prepared.
 </p>
 
-
-
-
-
-
-
-
-
-
->>>>>>> main
