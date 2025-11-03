@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -24,10 +28,14 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  /* removed global flex centering so header/nav can span the top */
   min-width: 320px;
   min-height: 100vh;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
 }
 
 h1 {
@@ -65,4 +73,21 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* fallback for desktop links if Tailwind isn't active */
+.desktop-links {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .desktop-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-left: auto;
+  }
+  .desktop-links li { display: block; }
 }
