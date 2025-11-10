@@ -31,6 +31,9 @@ body {
   /* removed global flex centering so header/nav can span the top */
   min-width: 320px;
   min-height: 100vh;
+  background: linear-gradient(180deg, #0d0d0d 0%, #1a1a1a 100%);
+  color: #f5f5f5;
+  font-family: 'poppins', sans-serif;
 }
 
 html, body, #root {
@@ -90,4 +93,103 @@ button:focus-visible {
     margin-left: auto;
   }
   .desktop-links li { display: block; }
+}
+
+/* Glass component styles */
+.glass { 
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+.glass:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 180, 255, 0.25);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* car image */
+.hero-bg-car {
+  background: 
+    linear-gradient(180deg, rgba(13, 13, 13, 0.6) 0%, rgba(26, 26, 26, 0.6) 100%),
+    url('/Car.avif') center/cover no-repeat;
+}
+/* Boat image */
+.hero-bg-boat {
+  background: 
+    linear-gradient(180deg, rgba(13, 13, 13, 0.6) 0%, rgba(26, 26, 26, 0.6) 100%),
+    url('/Boat.jpg') center/cover no-repeat;
+}
+/* House image */
+.hero-bg-house {
+  background: 
+    linear-gradient(180deg, rgba(13, 13, 13, 0.6) 0%, rgba(26, 26, 26, 0.6) 100%),
+    url('/House.jpg') center/cover no-repeat;
+}
+/* House image */
+.hero-bg-man {
+  background: 
+    linear-gradient(180deg, rgba(13, 13, 13, 0.6) 0%, rgba(26, 26, 26, 0.6) 100%),
+    url('/Man.jpg') center/cover no-repeat;
+}
+
+/* ========================= */
+/* ===== GLASS NAVBAR ===== */
+/* ========================= */
+
+.glass-nav {
+  background: rgba(20, 20, 20, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation links */
+.nav-link {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #00b4ff, #0077ff);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #00b4ff;
+  transform: translateY(-1px);
+}
+
+/* Wide glass container for About page only */
+.glass-wide {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  max-width: 800px;  /* wider container */
+  width: 90%;        /* still responsive */
+  padding: 3rem;     /* a bit more inner space */
+}
+
+.glass-wide:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 180, 255, 0.25);
+  background: rgba(255, 255, 255, 0.12);
 }
