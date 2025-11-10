@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar />
 
-      <main className='pt-20'>
+      <main>
       <Home />
       <About />
       <Services />
