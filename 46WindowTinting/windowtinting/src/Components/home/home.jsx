@@ -8,7 +8,7 @@ export default function Home() {
       className="hero-bg-car min-h-screen flex flex-col items-center justify-center pt-20"
     >
       {/* ====== Hero Heading ====== */}
-      <header className="text-left mb-80 -mt-10">
+      <header className="text-left mb-60 -mt-10">
         <h1
           id="home-heading"
           className="text-5xl font-bold text-white mb-4"
