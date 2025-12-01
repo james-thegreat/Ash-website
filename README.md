@@ -15,10 +15,13 @@
 <p>
   To Do: 
   <ul>
-    <li>set up tello page for Agile aproch.</li>
-    <li>start a figma design</li>
-    <li>write user storys</li>
-    <li>set due dates for user storys</li>
+    <li>[x] set up tello page for Agile aproch.</li>
+    <li>[x] start a figma design</li>
+    <li>[x] write user storys</li>
+    <li>[x] set due dates for user storys</li>
+    <li>[x] start the project using Rect/vite</li>
+    <li>[x] Finnish the website</li>
+    <li>[] Add the SCO</li>
   </ul>
 </p>
 
