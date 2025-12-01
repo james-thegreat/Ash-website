@@ -51,10 +51,11 @@
 <h3>Up-Skilling</h3>
 <ul>
   <li>JavaScript</li>
-  <li>React</li>
+  <li>React/vite</li>
   <li>AWS</li>
   <li>Next.js</li>
   <li>TypeScript</li>
+  <li>CI/CD pipeline</li>
 </ul>
 <p>
   <Strong>Note:</Strong>
