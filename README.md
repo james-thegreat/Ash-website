@@ -23,6 +23,7 @@
     <li>[x] Finnish the website</li>
     <li>[ ] Add the SCO</li>
     <li>[ ] Write up a Set up guide for the client (AWS, Google Analytics & Search Console for SCO) </li>
+    <li>[ ] Set up the CI & CD pipeline</li>
   </ul>
 </p>
 
