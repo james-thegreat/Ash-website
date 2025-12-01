@@ -21,7 +21,7 @@
     <li>[x] set due dates for user storys</li>
     <li>[x] start the project using Rect/vite</li>
     <li>[x] Finnish the website</li>
-    <li>[] Add the SCO</li>
+    <li>[ ] Add the SCO</li>
   </ul>
 </p>
 
