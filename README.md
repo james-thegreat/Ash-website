@@ -22,6 +22,7 @@
     <li>[x] start the project using Rect/vite</li>
     <li>[x] Finnish the website</li>
     <li>[ ] Add the SCO</li>
+    <li>[ ] Write up a Set up guide for the client (AWS, Google Analytics & Search Console for SCO) </li>
   </ul>
 </p>
 
